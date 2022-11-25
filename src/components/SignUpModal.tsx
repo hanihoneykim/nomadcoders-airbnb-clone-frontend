@@ -33,7 +33,7 @@ export default function SignUpModal({isOpen, onClose}:SignUpModalProps) {
                         <Input variant={"filled"} placeholder="Password"/>
                     </InputGroup>
                 </VStack>
-                <Button mt={4} colorScheme={"red"} w="100%">Log in</Button>
+                <Button mt={4} colorScheme={"red"} w="100%">Sign Up</Button>
                 <SocialLogin/>
             </ModalBody>
         </ModalContent>
